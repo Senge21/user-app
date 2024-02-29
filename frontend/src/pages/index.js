@@ -1,5 +1,9 @@
-const inter = Inter({ subsets: ["latin"] });
+import { SignUp } from "@/pages/SignUp";
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <div className="w-full h-screen">
+      <SignUp />
+    </div>
+  );
 }
